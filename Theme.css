@@ -21,7 +21,6 @@
     display: block;
 }
 
-/*christmas*/
 .seasonal-container .natalAtasKiri-img {
     width: 320px;
     position: absolute;
@@ -47,7 +46,6 @@
     right: 45px;
 }
 
-/*responsive*/
 @media only screen and (max-width: 1024px) {
     .hero-slider-bg-controls {
         left: 10px;
