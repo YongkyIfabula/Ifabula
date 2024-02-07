@@ -17,33 +17,35 @@
     left: 0;
 }
 
-.seasonal-container.eid {
+.seasonal-container.christmass {
     display: block;
 }
 
-/*eid*/
-.seasonal-container .mosque-img {
+.seasonal-container .natalAtasKiri-img {
+    width: 320px;
+    position: absolute;
+    top: 0;
+    left: 7%;
+}
+.seasonal-container .natalAtasKanan-img{
+    width: 155px;
+    position: absolute;
+    top: 11%;
+    right: 0px;
+}
+.seasonal-container .natalBawahKiri-img {
     width: 445px;
     position: absolute;
     bottom: 0;
     left: 0;
 }
-
-.seasonal-container .eid-img {
-    width: 500px;
+.seasonal-container .natalBawahKanan-img {
+    width: 360px;
     position: absolute;
-    top: 0;
-    left: 115px;
+    bottom: 0;
+    right: 45px;
 }
 
-.seasonal-container .lantern-img {
-    width: 240px;
-    position: absolute;
-    bottom: 10px;
-    right: 80px;
-}
-
-/*responsive*/
 @media only screen and (max-width: 1024px) {
     .hero-slider-bg-controls {
         left: 10px;
@@ -53,32 +55,39 @@
         left: 10px;
         bottom: 10% !important;
     }
-    .seasonal-container .eid-img {
+    .seasonal-container .natalAtasKiri-img {
         top: 10%;
         left: 0%;
         zoom: 0.9;
     }
-    .seasonal-container .mosque-img {
+    .seasonal-container .natalAtasKanan-img {
         zoom: 0.9;
     }
-    .seasonal-container .lantern-img {
+    .seasonal-container .natalBawahKiri-img {
+        zoom: 0.9;
+    }
+    .seasonal-container .natalBawahKanan-img {
         right: 0;
         zoom: 0.9;
     }
 }
 
 @media only screen and (max-width: 600px){
-    .seasonal-container .eid-img {
+    .seasonal-container .natalAtasKiri-img {
         top: 10%;
         left: 0%;
-        zoom: 0.9;
-        width: 320px;
+        zoom: 0.7;
     }
-    .seasonal-container .mosque-img {
+    .seasonal-container .natalAtasKanan-img {
+        zoom: 0.8;
+        right: -35px;
+    }
+    .seasonal-container .natalBawahKiri-img {
         zoom: 0.5;
     }
-    .seasonal-container .lantern-img {
+    .seasonal-container .natalBawahKanan-img {
         right: 0;
-        zoom: 0.5;
+        zoom: 0.4;
     }
+
 }
